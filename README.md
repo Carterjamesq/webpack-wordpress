@@ -58,8 +58,9 @@ module.exports = {
 <p>Add main.scss file</p>
 
 <p>Update folowing code to webpack.config.js</p>
-<pre><code>const path = require("path");
-const miniCss = require("mini-css-extract-plugin");
+<pre><code>
+  const path = require("path");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   mode: "production",
@@ -73,7 +74,7 @@ module.exports = {
       {
         test: /\.(scss|css)$/,
         use: [
-          miniCss.loader,
+          MiniCssExtractPlugin.loader,
           {
             loader: "css-loader",
             options: { url: false },
@@ -84,8 +85,8 @@ module.exports = {
     ],
   },
   plugins: [
-    new miniCss({
-      filename: "../style.css",
+    new MiniCssExtractPlugin({
+      filename: "css/main.css", // Relative path to the output directory
     }),
   ],
 };
