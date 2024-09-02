@@ -10,8 +10,7 @@
 
 <p>Add comands to <span>package.json</span></p>
 
-
-  "scripts": {
+"scripts": {
 	...
  
 	"build": "webpack",
