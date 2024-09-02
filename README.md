@@ -10,11 +10,11 @@
 
 <p>Add comands to <span>package.json</span></p>
 
-<code>
+
   "scripts": {
 	...
  
 	"build": "webpack",
 	"start": "webpack --watch"
 },
-</code>
+
