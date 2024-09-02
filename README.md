@@ -53,7 +53,7 @@ module.exports = {
 <h3>Add compiled scripts to theme</h3>
 <pre><code>wp_enqueue_script('custom-sripts', get_template_directory_uri() . '/assets/scripts.js', array('jquery'), '1.0', true);</code></pre>
 
-<h3>Add scss support with command <code>npm i css-loader sass-loader node-sass mini-css-extract-plugin -D</code></h3>
+<h3>Add scss support with command <pre><code>npm i css-loader sass-loader node-sass mini-css-extract-plugin -D</code></h3></pre>
 <p>Create scss folder inside src folder</p>
 <p>Add main.scss file</p>
 
