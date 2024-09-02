@@ -36,4 +36,4 @@ module.exports = {
 <p>Create <b>js</b> folder with .js file scritp ( add as many as need script files )</p>
 
 <h2>Create <b>assets</b>s folder</h2>
-<sapn>Run npm run build command</sapn>
+<sapn>Run <b>npm run build</b> command to test if everything works and js scripts compile</sapn>
