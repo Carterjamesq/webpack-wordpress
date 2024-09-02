@@ -33,4 +33,4 @@ module.exports = {
 
 <h2>Create src folder inside theme folder</h2>
 <p>Create <b>src</b> folder with <b>index.js</b> file</p>
-<p>Create <b>js</b> folder with .js file scritp ( add as many as need script files)</p>
+<p>Create <b>js</b> folder with .js file scritp ( add as many as need script files )</p>
