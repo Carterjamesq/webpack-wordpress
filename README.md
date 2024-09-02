@@ -96,7 +96,7 @@ module.exports = {
 
 <h3>Comands for watch/build</h3>
 <ol>
-  <li><code>npm run start</code></li>
+  <li><code>npm run start</code><p>for watching</p></li>
   <h4>Or</h4>
-  <li><code>npm run build</code></li>
+  <li><code>npm run build</code><p>for build</p></li>
 </ol>
