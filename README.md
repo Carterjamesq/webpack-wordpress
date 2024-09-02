@@ -23,13 +23,14 @@
 const path = require('path');
 
 module.exports = {
-	mode: 'development',
+	mode: 'production',
 	entry: './src/index.js',
 	output: {
 		path: path.resolve(__dirname, 'assets'),
 		filename: 'scripts.js'
 	}
 };
+note: if change mode to development it's doesnt minify css, js code 
 
 <h2>Create src folder inside theme folder</h2>
 <p>Create <b>src</b> folder with <b>index.js</b> file</p>
