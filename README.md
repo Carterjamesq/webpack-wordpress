@@ -20,8 +20,8 @@
 
 <h2>Create webpack.config.js file</h2>
 <p>Add code to webpack.config.js</p>
-<code>const path = require('path');
- <br>
+const path = require('path');
+
 module.exports = {
 	mode: 'development',
 	entry: './src/index.js',
@@ -29,4 +29,4 @@ module.exports = {
 		path: path.resolve(__dirname, 'assets'),
 		filename: 'scripts.js'
 	}
-};</code>
+};
