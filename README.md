@@ -2,7 +2,7 @@
 
 # webpack-wordpress
 
-
+<h2>Inizialization</h2>
 <ul>
   <li>npm init</li>
   <li>npm install webpack -D</li>
@@ -16,4 +16,7 @@
 	"build": "webpack",
 	"start": "webpack --watch"
 },
+<i>Remove other scrips if need</i>
+
+<h2>Create webpack.config.js file</h2>
 
