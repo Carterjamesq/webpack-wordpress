@@ -95,4 +95,9 @@ module.exports = {
 <h3>Add compiled main.css file to theme</h3>
 <pre><code>wp_enqueue_style('main-styles', get_template_directory_uri() . '/assets/css/main.css', array(), '1.0.0', 'all');</code></pre>
 
-
+<h3>Comands for watch/build</h3>
+<ol>
+  <li><code>npm run start</code></li>
+  <pre>or</pre>
+  <li><code>npm run build</code></li>
+</ol>
