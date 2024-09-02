@@ -58,8 +58,7 @@ module.exports = {
 <p>Add main.scss file</p>
 
 <p>Update folowing code to webpack.config.js</p>
-<pre><code>
-  const path = require("path");
+<pre><code>const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
