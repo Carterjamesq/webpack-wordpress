@@ -94,7 +94,7 @@ module.exports = {
 
 <h3>Add compiled main.css file to theme</h3>
 <pre><code>
-  wp_enqueue_style('my-style', 'https://example.com/my-style.css', array(), '1.0.0', 'all');
+  wp_enqueue_style('main-styles', get_template_directory_uri() . '/assets/css/main.css', array(), '1.0.0', 'all');
 </code></pre>
 
 
