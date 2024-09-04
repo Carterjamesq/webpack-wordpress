@@ -60,35 +60,35 @@ module.exports = {
 <p>Update folowing code to webpack.config.js</p>
 <pre><code>const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-
 module.exports = {
-  mode: "production",
-  entry: "./src/index.js",
-  output: {
-    path: path.resolve(__dirname, "assets"),
-    filename: "scripts.js",
-  },
-  module: {
-    rules: [
-      {
-        test: /\.(scss|css)$/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          {
-            loader: "css-loader",
-            options: { url: false },
-          },
-          "sass-loader",
+    mode: "production",
+    entry: "./src/index.js",
+    output: {
+        path: path.resolve(__dirname, "assets"),
+        filename: "scripts.js",
+    },
+    module: {
+        rules: [
+            {
+                test: /.(scss|css)$/,
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    {
+                        loader: "css-loader",
+                        options: { url: false },
+                    },
+                    "sass-loader",
+                ],
+            },
         ],
-      },
+    },
+    plugins: [
+        new MiniCssExtractPlugin({
+            filename: "css/main.css", // Relative path to the output directory
+        }),
     ],
-  },
-  plugins: [
-    new MiniCssExtractPlugin({
-      filename: "css/main.css", // Relative path to the output directory
-    }),
-  ],
 };
+
 </code></pre>
 
 <h3>Add compiled main.css file to theme</h3>
