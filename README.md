@@ -29,7 +29,7 @@
 const path = require('path');
 
 module.exports = {
-  <pre>mode: 'production',</pre>
+  mode: 'production',
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'assets'),
