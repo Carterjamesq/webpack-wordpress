@@ -26,16 +26,16 @@
 <h3>Create <code>webpack.config.js</code></h3>
 <p>Add the following code to the <code>webpack.config.js</code> file:</p>
 <pre><code>
-const path = require('path');
-
+const path = require("path");
 module.exports = {
-  mode: 'production',
-  entry: './src/index.js',
-  output: {
-    path: path.resolve(__dirname, 'assets'),
-    filename: 'scripts.js'
-  }
+    mode: "production",
+    entry: "./src/index.js",
+    output: {
+        path: path.resolve(__dirname, "assets"),
+        filename: "scripts.js",
+    },
 };
+
 </code></pre>
 <p><strong>Note:</strong> If you change the mode to <code>development</code>, CSS and JS code will not be minified.</p>
 
