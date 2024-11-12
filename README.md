@@ -32,7 +32,7 @@ module.exports = {
     entry: "./src/index.js",
     output: {
         path: path.resolve(__dirname, "assets"),
-        filename: "scripts.js",
+        filename: "scripts.min.js",
     },
 };
 
@@ -65,7 +65,7 @@ module.exports = {
     entry: "./src/index.js",
     output: {
         path: path.resolve(__dirname, "assets"),
-        filename: "js/scripts.js",
+        filename: "js/scripts.min.js",
     },
     module: {
         rules: [
@@ -84,7 +84,7 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: "css/main.css", // Relative path to the output directory
+            filename: "css/main.min.css", // Relative path to the output directory
         }),
     ],
 };
