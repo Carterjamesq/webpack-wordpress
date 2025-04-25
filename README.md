@@ -32,7 +32,7 @@ module.exports = {
     entry: "./src/index.js",
     output: {
         path: path.resolve(__dirname, "assets"),
-        filename: "scripts.min.js",
+        filename: "js/scripts.min.js",
     },
 };
 
